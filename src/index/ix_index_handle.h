@@ -72,7 +72,7 @@ class IxIndexHandle {
 
     void erase_leaf(IxNodeHandle *leaf);
 
-    void release_node_handle(IxNodeHandle &node);
+    void release_node_handle(IxNodeHandle* node);
 
     void maintain_child(IxNodeHandle *node, int child_idx);
 
